@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/2D GLOW/GLOW.unity
+    guid: 0b5f5fb57bf0d9e4ca40909aab883028
   m_configObjects: {}

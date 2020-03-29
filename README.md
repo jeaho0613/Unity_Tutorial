@@ -7,7 +7,7 @@
 
 ## Contents
 
-- ###  **Shooting Game**
+- ###  **[Shooting Game Project]**
 
   - Gold Metal 유튜브 강좌를 보고 따라만든 게임입니다.
   - 총 `10`개의 스크립트로 구성되었습니다.
@@ -23,8 +23,24 @@
       - 각 패턴은 sin, cos 함수를 이용하여 제작했습니다.
       - 패턴의 수를 정하여 Invoke 함수로 불러옵니다.
 
-- ### **2D_Shader_Graph**
+- ### **[2D Shader Graph Project]**
 
-  - 2D shader graph
-  - 2D sprite shaph
-  - 2D Effecotrs
+  - **2D Sprite Shape**
+    - 2D의 오브젝트를 shape를 활용한 모양잡기
+    - Tile map 과 다르게 굴곡과 유동성 있는 타일을 만들수 있음
+  - **2D shader Graph**
+    - 쉐이더 그래프를 이용한 클로킹 이펙트
+    - Global Volume을 이용한 전체 볼륨 조정
+    - 머테리얼을 이용한 클로킹 쉐이더
+  - **2D Effectors**
+    - Effect component의 기초 활용
+      - Platform Effector : 특정한 범위(각)을 지정하여 효과를 줌
+      - Surface Effector : X축 방향으로 힘을 줌 (부스트 효과, 급속적 힘의 방향)
+      - Area Effector : y축 방향으로 힘을 줌 (공중부양, 특정 구간의 점프 힘)
+      - Buoyancy Effector : 계속적인 바운스 효과 (통통 튀는 공, 바운스 게임 예시)
+      - Point Effector : 특정 포인트에 힘을 줌 (행성의 중력, 더 큰 질량에 따라 오브젝트를 따라옴)  
+
+- ### **[Line Project Project]**
+
+  - Line component 를 이용한 마우스 그림 그리기
+  - 그려진 Line은 동적으로 생성되고 Effector를 적용하여 각기 다른 힘을 받음
