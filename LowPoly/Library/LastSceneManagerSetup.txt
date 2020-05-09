@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/polyperfect/Low Poly Ultimate Pack/11 - suburban.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
